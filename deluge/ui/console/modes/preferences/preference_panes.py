@@ -619,7 +619,7 @@ class QueuePane(BasePreferencePane):
             core_conf['stop_seed_ratio'],
             precision=2,
             inc_amt=0.1,
-            min_val=0.5,
+            min_val=0.0,
             max_val=100.0,
         )
         self.add_checkedplus_input(
